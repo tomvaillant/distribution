@@ -1,0 +1,49 @@
+name: Daily News Scouting
+
+permissions:
+  contents: write
+  
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 */3 * * *'  # Every 3 hours
+
+jobs:
+  daily-scouting:
+    runs-on: ubuntu-latest
+    
+    # Set environment variables from GitHub secrets
+    env:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      ZAPIER_WEBHOOK_URL: ${{ secrets.ZAPIER_WEBHOOK_URL }}
+    
+    steps:
+    - name: Check out repository
+      uses: actions/checkout@v4  # Updated to v4
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4  # Updated to v4
+      with:
+        python-version: '3.10'
+    
+    - name: Install dependencies
+      run: |
+        pip install --upgrade pip
+        pip install jupyter nbconvert feedparser pandas requests anthropic python-dotenv beautifulsoup4 jinja2
+    
+    - name: Run news scouting notebook
+      run: |
+        # Execute notebook and save output
+        jupyter nbconvert --to notebook --execute "distribution_scouting.ipynb" --output "distribution_scouting_executed.ipynb"
+        
+        # Also create an HTML version for debugging if needed
+        jupyter nbconvert --to html "distribution_scouting_executed.ipynb"
+    
+    - name: Commit results
+      run: |
+        git config user.name "GitHub Actions Bot"
+        git config user.email "actions@users.noreply.github.com"
+        git add -A
+        timestamp=$(date -u +'%Y-%m-%d %H:%M:%S UTC')
+        git commit -m "Daily scouting run: ${timestamp}" || echo "No changes to commit"
+        git push
