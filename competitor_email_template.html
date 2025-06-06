@@ -1,0 +1,93 @@
+<div style="font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto;">
+    <h2 style="color: #d32f2f;">20min.ch Competitor Gap Analysis</h2>
+    
+    <p>Hallo Tom,</p>
+    
+    <p>Die tägliche Konkurrenzanalyse für <strong>{{ date }}</strong> ist bereit.</p>
+    
+    <div style="background-color: #f5f5f5; padding: 15px; border-radius: 5px; margin: 20px 0;">
+        <h3 style="margin-top: 0;">Analyse-Übersicht:</h3>
+        <ul style="list-style-type: none; padding-left: 0;">
+            <li>📊 Konkurrenz-Artikel analysiert: {{ stats.competitor_articles }}</li>
+            <li>📰 20min Artikel verglichen: {{ stats.twentymin_articles }}</li>
+            <li>🔍 Quellen untersucht: {{ stats.competitor_sources }}</li>
+            <li>⏰ Erstellt um: {{ time }}</li>
+        </ul>
+    </div>
+    
+    <div style="margin: 20px 0;">
+        <h3>🎯 Top Story-Opportunities (nicht von 20min abgedeckt):</h3>
+        
+        {% for category in categories %}
+        {% if category.stories %}
+        <h4 style="color: #666; margin-top: 20px;">{{ category.name }}</h4>
+        <ul style="margin: 10px 0;">
+            {% for item in category.stories[:3] %}
+            <li style='margin: 5px 0;'>
+                {% if item.url %}
+                <a href="{{ item.url }}" target="_blank" style="color: #000000; text-decoration: none;">{{ item.text }}</a>
+                {% else %}
+                {{ item.text }}
+                {% endif %}
+            </li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+        {% endfor %}
+        
+        {% if keywords %}
+        <h3 style="margin-top: 30px;">🔑 Trending Keywords:</h3>
+        <p style="background-color: #f0f0f0; padding: 10px; border-radius: 5px;">
+            {{ keywords|join(' • ') }}
+        </p>
+        {% endif %}
+        
+        {% if recommendations %}
+        <h3 style="margin-top: 30px;">💡 Empfohlene Story-Opportunities:</h3>
+        <ol style="background-color: #e8f5e9; padding: 20px; border-radius: 5px;">
+            {% for rec in recommendations %}
+            <li style='margin: 10px 0;'>
+                {% if rec.url %}
+                <a href="{{ rec.url }}" target="_blank" style="color: #000000; text-decoration: none;">{{ rec.text }}</a>
+                {% else %}
+                {{ rec.text if rec.text else rec }}
+                {% endif %}
+            </li>
+            {% endfor %}
+        </ol>
+        {% endif %}
+        
+        {% if audience_recommendations %}
+        <h3 style="margin-top: 30px;">🎯 Zielgruppen-spezifische Empfehlungen:</h3>
+        {% for audience in audience_recommendations %}
+        <div style="background-color: #f8f9fa; padding: 15px; margin: 10px 0; border-radius: 5px; border-left: 4px solid #007bff;">
+            <h4 style="margin-top: 0; color: #007bff;">{{ audience['name'] }}</h4>
+            <ul style="margin: 5px 0; padding-left: 20px;">
+                {% for item in audience['items'] %}
+                <li style='margin: 5px 0;'>
+                    {% if item.url %}
+                    <a href="{{ item.url }}" target="_blank" style="color: #000000; text-decoration: none;">{{ item.text }}</a>
+                    {% else %}
+                    {{ item.text if item.text else item }}
+                    {% endif %}
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endfor %}
+        {% endif %}
+    </div>
+    
+    <p style="margin-top: 30px;">
+        <em>Diese Analyse identifiziert Themen, die von Konkurrenten behandelt werden, 
+        aber noch nicht auf 20min.ch erschienen sind. Die Empfehlungen berücksichtigen 
+        alle 6 Zielgruppen-Segmente.</em>
+    </p>
+    
+    <hr style="border: none; border-top: 1px solid #ddd; margin: 30px 0;">
+    
+    <p style="color: #666; font-size: 12px;">
+        Automatisch generiert durch Vergleich von {{ stats.competitor_articles }} Konkurrenz-Artikeln 
+        mit {{ stats.twentymin_articles }} aktuellen 20min-Artikeln.
+    </p>
+</div>

@@ -1,0 +1,161 @@
+Consider the target audience by group from 20 Minuten to establish the baseline for comparison. Do this task in the background and store the information for the final step.
+
+a) Audience group 1 (Fan users):
+• 30 years old, rather female
+• Middle education level
+• Simple and pragmatic family person, loves fun, music, comedy
+• 20 Minuten is the main news source; don't use printed newspapers
+• Punctual use of other media like Watson, Blick, NRJ, or daily news on TV
+• Likes simple, short information, easy to understand, and not too complex
+• Likes the 20 Minuten style and doesn't like more detailed news sources
+• Is a heavy user of 20 Minuten, has high interaction, likes the community feeling, and follows 20 Minuten on social
+• Uses a wide variety of topics
+• Heavy user of social media
+• Grew up with 20 Minuten, has a high identification and likes the young spirit
+• Discusses with friends 20 Minuten-news and shares articles, comments
+
+b) Audience group 2 (overview users):
+• 40-60 years old, rather male
+• Middle to high education level
+• Pragmatic, rational personal
+• Might subscribe to a regional newspaper
+• Uses 20 Minuten, Blick online, Watson or Tages-Anzeiger / NZZ
+• Not an intensive social media user, but uses Netflix, Spotify, YouTube
+• Uses now and the daily news on TV
+• Compare news from different sources and do not want to miss important topics (FOMO)
+• Is a heavy user of 20 Minuten, makes frequent but short visits
+• Interested in regional and national news as well in (regional) sport and the main international topics
+• Uses mainly hard news and less entertainment content
+• Often uses Google to search for more detailed news
+• Don't want to pay for news, would rather pay for the printed than for the online one
+
+c) Audience group 3 (social media users):
+• Around 20 years old
+• Urban
+• University student
+• Interested in news, especially national or global news (big topics like Coronavirus, US election)
+• Affinity for political movements, like feminism, environmental protection
+• Digital native, heavy user of social media, follows influencers and blogs
+• Classical media are barely used
+• Instagram and/or TikTok as the point of contact with news from 20 Minuten, SRF, Blick, no news app used
+• Paid media are rated as not appealing, with no willingness to pay
+• Uses 20 Minuten through stories or the "swipe up" function on Instagram
+• 20 Minuten is primarily an information source, they appreciate entertainment content sometimes too
+• Likes videos from 20 Minuten
+• 20 Minuten Radio is known
+
+d) Audience group 4 (feel good users):
+• Around 30 years old, female
+• Focuses on nice things in life, like lifestyle, beauty, fitness, mindfulness, health, and design
+• Low interest in news, avoids (bad) news, uses news sources only if necessary (to know the latest COVID news or personally relevant news)
+• Is a social media heavy user
+• On Instagram, she focuses on her interests, following blogs and influencers
+• She uses Tik Tok for fun
+• She likes to listen to music (digitally) and watch Netflix series
+• She is not a regular user of news sources
+• News sources are 20 Minuten (or NZZ, to check if she can trust the news)
+• Has quite low trust in 20 Minuten and news sources in general
+• Very selective usage of 20 Minuten
+• Uses 20 Minuten Print 2-3 times a week, mainly for people/horoscope
+
+e) Audience group 5 (entertainment users):
+• 50 years old
+• Lives in a regional area
+• Low to middle education level
+• Simple, practical, traditional person
+• Likes to be outdoors and is social
+• Is a subscriber of a regional newspaper, readsa newspaper in the morning
+• Is a Facebook and YouTube user
+• Is a TV ("Tagesschau") and radio user
+• Magazine and Sunday newspaper user
+• Uses the printed edition of 20 Minuten regularly
+• Uses 20 Minuten for information and entertainment and reads a wide range of articles, has a high interaction (comments, pictures, raffles)
+• Breaking news is activated and follows 20 Minuten on social media
+• Sometimes uses other free digital news sites like SRF/RTS or Blick/ lematin.ch too
+• News should be short and simple
+• Likes articles on sport, auto, recipes, and sometimes also people
+
+f) audience group 6 (secondary funseeker):
+• 35-40 years old
+• Medium to high education level
+• Often has an analytical job
+• Has a high affinity for digital content
+• He is very interested in politics, news ,and media
+• Uses many news sources and has one or more subscriptions to paid media (NZZ, Tages-Anzeiger, Luzerner Zeitung), often also foreign media (Spiegel, Die Zeit, Financial Times)
+• Video and Audio are mainly used for entertainment, but no junkie user
+• Uses primarily paid media, 20 Minuten is a secondary information source
+• He used to browse the 20 Minuten content, and is mainly looking for a type of content he does not find on paid media (e.g. infotainment, regional news, digital news)
+• Likes innovations and new forms of storytelling (articles focusing on diversity, personal experiences)
+
+STEP 4: ANALYSIS & RANKING
+
+Analyze all collected headlines and complete the following tasks:
+
+a) Filter out duplicates:
+- Compare all competitor headlines against 20 Minuten headlines
+- Remove any headlines that cover the same story or topic already covered by 20 Minuten
+- Remove any opinion pieces or editorials
+- Remove any local traffic accidents
+
+b) Categorize remaining headlines:
+- Group headlines into broad categories (Business/Finance, Technology/Science, Politics, Lifestyle, Sport, People, Digital, World News Events, Health, Service/Helpfu, Travel, Automotive)
+- Within each category, group headlines that report on the same underlying event/topic
+
+c) Rank and present findings:
+- For each category, create a ranked list of the top 5 most newsworthy topics not covered by 20 Minuten
+- Format each item as: [RANK]. [GERMAN_HEADLINE] - [ORIGINAL_URL]
+- WICHTIG: Include the exact original article URL from the competitor data for each story
+- Use the format: "1. Deutscher in Norwegen wegen Gold-Schmuggel verurteilt - https://www.blick.ch/ausland/rund-elf-kilogramm-deutscher-in-norwegen-wegen-gold-schmuggel-verurteilt-id20938408.html"
+- Rank based on: recency, prevalence across multiple sources, and potential reader interest
+
+d) Extract keywords:
+- Conclude with a bulleted list of the top 10 main keywords from all identified topics
+- Prefix this section with "Keywords:"
+
+e) Compare story opportunities with our current audiences. Provide actionable recommendations for tailoring stories to each audience group.
+
+WICHTIG: Formuliere alle Antworten auf Deutsch. Verwende die deutschen Originaltitel der Artikel und beschreibe alles auf Deutsch.
+
+For each audience group, provide specific story recommendations in this exact format (3-4 stories per group):
+
+Für Fan-Nutzer (Gruppe 1):
+- [German story title] - [ORIGINAL_URL]
+- [German story title] - [ORIGINAL_URL]
+- [German story title] - [ORIGINAL_URL]
+
+Für Überblicks-Nutzer (Gruppe 2):
+- [German story title] - [ORIGINAL_URL]
+- [German story title] - [ORIGINAL_URL]
+- [German story title] - [ORIGINAL_URL]
+
+Für Social Media Nutzer (Gruppe 3):
+- [German story title] - [ORIGINAL_URL]
+- [German story title] - [ORIGINAL_URL]
+- [German story title] - [ORIGINAL_URL]
+
+Für Feel-Good-Nutzer (Gruppe 4):
+- [German story title] - [ORIGINAL_URL]
+- [German story title] - [ORIGINAL_URL]
+- [German story title] - [ORIGINAL_URL]
+
+Für Entertainment-Nutzer (Gruppe 5):
+- [German story title] - [ORIGINAL_URL]
+- [German story title] - [ORIGINAL_URL]
+- [German story title] - [ORIGINAL_URL]
+
+Für Secondary Funseeker (Gruppe 6):
+- [German story title] - [ORIGINAL_URL]
+- [German story title] - [ORIGINAL_URL]
+- [German story title] - [ORIGINAL_URL]
+
+f) Final recommendation:
+- Provide a brief list of the 5-8 most promising story opportunities across all categories and recommend which story could have the most impact on the audience group in terms of reader engagement.
+- Format as: "1. [German story title] - [ORIGINAL_URL]"
+
+WICHTIG: 
+- Verwende durchgehend deutsche Sprache für alle Antworten, Titel und Beschreibungen
+- Verwende immer die originalen URLs aus den competitor_articles Daten
+- Beispiel: "1. Deutscher in Norwegen wegen Gold-Schmuggel verurteilt - https://www.blick.ch/ausland/rund-elf-kilogramm-deutscher-in-norwegen-wegen-gold-schmuggel-verurteilt-id20938408.html"
+
+**NEWS DATA:**
+{df_json}
